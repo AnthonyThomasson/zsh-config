@@ -106,10 +106,6 @@ source $ZSH/oh-my-zsh.sh
 # Paths
 export PATH="$PATH:$HOME/Documents/Tools/tools/zshedit/bin"
 
-
-export PATH="/usr/local/opt/python@3.7/bin:$PATH"
-export PATH="/usr/local/opt/python@3.7/bin:$PATH"
-
-
+alias python=/usr/local/bin/python3
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
