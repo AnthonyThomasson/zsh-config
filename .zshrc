@@ -75,7 +75,8 @@ ZSH_THEME="gozilla"
 plugins=(git zsh-autosuggestions)
 
 # Disabled this becuase I am using the fig plugin
-# ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white,bg=blue,bold'
 
 source $ZSH/oh-my-zsh.sh
 
